@@ -10,7 +10,7 @@ from cloudshell.api.common_cloudshell_api import CloudShellAPIError
 TARGET_TYPE_RESOURCE = "Resource"
 PRE_AUTOLOAD_CONFIGURATION_STEPS = "pre_autoload_configuration_command"
 PYTHON_DRIVER_CONFIGURE = "configure_device_command"
-RESOURCE_COMMAND_CONFIGURE_FAMILIES = ["Virtual Traffic Generator Chassis"]
+RESOURCE_COMMAND_CONFIGURE_FAMILIES = ["Virtual Traffic Generator Chassis", "CS_VirtualTrafficGeneratorChassis"]
 
 MISSING_COMMAND_ERROR = "101"
 NO_DRIVER_ERR = "129"
